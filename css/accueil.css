@@ -1,0 +1,77 @@
+body {
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/*Début Header*/
+header {
+    background: #0077b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Logo en haut à gauche*/
+header img{
+    height: 40px;
+    width: 64px;
+}
+
+header nav{
+    background-color:#0178b7;
+    padding:15px;
+    display:flex;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding:20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    padding:10px;
+    color:#a0cde5;
+}
+
+header nav ul li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    background-color: #071570;
+    border-radius: 15px;
+    border: 3px solid #ccc;
+}
+
+nav a:hover{
+    color:rgb(230, 230, 230);
+}
+
+/*Fin Header*/
+
+
+
+
+
+
+
+
+
+.illustration {
+    width: 40%; /* Taille cohérente */
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+}
+
+.illustration:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Ombre autour de l'image */
+    border-color: #0077b6; /* Change la couleur de la bordure */
+}
